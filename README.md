@@ -14,5 +14,5 @@ install development tools on windows
 ```
 * intall pywinrm (python winrm support)
 ```
-  sudo pip install pywinrm
-
+  pip install pywinrm
+```
