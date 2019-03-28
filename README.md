@@ -10,9 +10,17 @@ install development tools on windows
 [Windows Subsystem for Linux Installation Guide for Windows 10](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
 * install ansible and python-pip (python package manager)
 ```
-  sudo apt install ansible python-pip
+  sudo apt-get install ansible python-pip
 ```
 * intall pywinrm (python winrm support)
 ```
   pip install pywinrm
 ```
+* of follow the instructions of Jeff Geerling
+https://www.jeffgeerling.com/blog/2017/using-ansible-through-windows-10s-subsystem-linux
+
+
+## install sshd on WSL to enable remote access to linux bash console
+* install openssh-server
+```
+  sudo apt-get install openssh-server 
