@@ -2,7 +2,7 @@
 install development tools on windows
 
 ## prerequisites
-* Linux Sybsystem for Windows enabled
+* Windows Subsystem for Linux (WSL) enabled
 ```
   Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 ```
