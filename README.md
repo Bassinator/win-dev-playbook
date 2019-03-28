@@ -8,3 +8,11 @@ install development tools on windows
 ```
 * install linux (I use ubuntu, so it's best supported)
 [Windows Subsystem for Linux Installation Guide for Windows 10](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
+* install ansible and python-pip (python package manager)
+```
+  sudo apt install ansible python-pip
+```
+* intall pywinrm (python winrm support)
+```
+  sudo pip install pywinrm
+
