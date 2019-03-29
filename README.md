@@ -24,3 +24,13 @@ https://www.jeffgeerling.com/blog/2017/using-ansible-through-windows-10s-subsyst
 * install openssh-server
 ```
   sudo apt-get install openssh-server 
+```
+
+## side notes
+
+
+* install hyper-v
+  run powershell as administrator
+  ```
+  Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
+  ```
